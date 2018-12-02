@@ -74,8 +74,7 @@ plugged into other django projects, so we can reuse them.<br/>
      We use subclass of Django class <br/>
     <i>django.db.models.Models
     </i><br/>
-    Each attribute of the class represents a field which is just like a column name with constraints in SQL.
-
+    Each attribute of the class represents a field which is just like a column name with constraints in SQL.<br/><br/>
     After models creation we need to migrate the database. This is basically letting django do the heavy lifting of creating sql database that correspond to models we created. this can be done with simple command.<br/>
       <i>python manage.py migrate</i><br/>
       <br/>
