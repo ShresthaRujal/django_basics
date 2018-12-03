@@ -3,12 +3,12 @@
 
   #to use a virtual environment with Conda we use this command to crate environment<br/><br/>
   #it encouraged to use virtual environments for project to keep them self-contained and not run into issues when packages update.<br/>
-    $conda crate --name myEnv<br/>
+    $conda create --name myEnv<br/>
 <br/><br/><br/>
   #to use created environment we need to activate the environment<br/>
     $activate myEnv<br/><br/>
   #to deactivate environment<br/><br/>
-    $deactivate myEnv<br/>
+    $deactivate <br/>
 <br/><br/>
 #to install django<br/>
   $conda install django<br/>
